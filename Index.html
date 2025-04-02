@@ -10,13 +10,13 @@
     </head>
     
     <body class="bg-[url('background.png')] bg-cover bg-center h-screen w-full">
-        <div class="grid grid-cols-2 gap-6">
-            <section id="profile-picture" class="">
-                <img class="rounded-[29px]" src="profile-picture.JPG" alt="profile-picture">
+        <div class="grid grid-cols-4 gap-6 pl-6 pr-6 pt-6">
+            <section id="profile-picture" class="col-span-1" >
+                <img class="rounded-[29px] " src="profile-picture.JPG" alt="profile-picture">
             </section>
-            <section id="bio" class="bg-[#FFFFFF] rounded-[29px] p-6 ">
+            <section id="bio" class="col-span-3 bg-[#FFFFFF] rounded-[29px] p-6">
                 <h2 class="text-xl font-bold">Name Surname</h2>
-                    <p class="text-gray-600 mt-2">
+                    <p class="text-gray-600 mt-2 text-xl">
                         I am a passionate and dedicated software developer with a strong foundation in JavaScript and React. 
                         With hands-on experience in building dynamic and responsive web applications, I excel at transforming 
                         complex requirements into intuitive user interfaces.
@@ -27,72 +27,122 @@
             <section id="proficiency" class="bg-[#FFFFFF] rounded-[29px] m-6 ">
                 <div class="p-4">
                     <h2 class="text-xl font-bold pb-6">Proficiency</h2>
-                    <div class="flex justify-start text-sm font-medium mt-2 mb-4">
+                    <div class="flex text-sm font-medium mb-4">
                       <span>Beginner</span>
-                      <span>Intermediate Advance*</span>
+                      <span class="pl-4">Intermediate Advance*</span>
                     </div>
-                
                     
-                      <div class="flex pb-4">
-                        <p class="text-sm font-medium justify-start">JavaScript</p>
-                        <div class="h-6 bg-[#FFFFFF] rounded-full">
+                    <div class="grid grid-cols-4 w-full items-center">
+                      
+                      <div class="flex flex-col items-start space-y-4">
+                        <p class="text-md font-medium">JavaScript</p>
+                        <p class="text-md font-medium">React</p>
+                        <p class="text-md font-medium">Node.js</p>
+                        <p class="text-md font-medium">HTML + CSS</p>
+                      </div>
+                    
+                      
+                      <div class="flex flex-col col-span-3 space-y-4">
+                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
+                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
                         </div>
-                        <div class="h-6 bg-[#4A8B70] rounded-full w-[10%]"></div>
-                      </div>
-                
-                      <div class="flex pb-4">
-                        <p class="text-sm font-medium justify-start">React</p>
-                        <div class="h-6 bg-[#FFFFFF] rounded-full">
+                    
+                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
+                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
                         </div>
-                        <div class="h-6 bg-[#4A8B70] rounded-full w-[10%]"></div>
-                      </div>
-                
-                      <div class="flex pb-4">
-                        <p class="text-sm font-medium justify-start">Node.js</p>
-                        <div class="h-6 bg-[#FFFFFF] rounded-full"></div>
-                        <div class="h-6 bg-[#4A8B70] rounded-full w-[10%]"></div>
-                      </div>
-                
-                      <div class="flex pb-4 ">
-                        <p class="text-sm font-medium justify-start">HTML + CSS</p>
-                        <div class="h-6 bg-[#FFFFFF] rounded-full">
-                          <div class="h-6 bg-[#4A8B70] rounded-full w-[20%]"></div>
+                    
+                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
+                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
+                        </div>
+                    
+                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
+                          <div class="h-5 bg-[#4A8B70] rounded-md w-[100%]"></div>
                         </div>
                       </div>
+                    </div>
+                    
+                      
                     
                   </div>
             </section>
             <section id="skills" class="bg-[#FFFFFF] rounded-[29px] m-6">
                 <div class="p-4">
                     <h2 class="text-xl font-bold">Skills</h2>
-                    <div class="flex flex-wrap gap-2 mt-4 p-4">
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Software Development</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Agile</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">UI Design</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Problem Solving</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Git and Version Control</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Web Development</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Team Collaboration</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">Functional Programming</span>
-                      <span class="px-3 py-1 bg-[#4A8B7021] text-sm rounded-full">RESTful APIs</span>
+                    <div class="flex flex-wrap gap-6 mt-4 pr-4 pt-4 pb-4">
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Software Development</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Agile</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">UI Design</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Problem Solving</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Git and Version Control</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Web Development</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Team Collaboration</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Functional Programming</span>
+                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">RESTful APIs</span>
                     </div>
                   </div>
                 
             </section>
         </div>
-            <section id="projects" class="bg-[#FFFFFF] rounded-lg grid grid-cols-1">
+            <section id="projects" class="bg-[#FFFFFF] rounded-[29px] grid grid-cols-1 m-6">
+                  <div class="grid grid-cols-1">
+                     <span class="text-xl font-bold grid justify-items-center py-10">Projects</span>
+                  </div>
+                  <div class="grid grid-cols-4 gap-[20px]">
+                    <div class="col-span-1 justify-self-center w-[240px]  rounded-[12px] bg-[#2E6E5B] text-[#FFFFFF] w-[280px] h-[581px]">
+                      <div class="flex justify-between">
+                        <p class="p-4 text-[24px]">2025</p>
+                        <img class="p-6" src="Vector.png" alt="Orange-Heart"/>
+                      </div>
+                        <h1 class="p-4 text-[24px]">Portfolio Website</h1>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Brief:</span> Developed a personal portfolio website to showcase projects and skills.</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Technologies:</span> React, JavaScript, HTML, CSS</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Responsibilities:</span> Designed and implemented the website, ensured responsiveness and accessibility.</p>
+                    </div>
+
+                    <div class="col-span-1 justify-self-center w-[240px]  rounded-[12px] bg-[#E7F0EC] text-[#000000] w-[280px] h-[581px]">
+                      <div class="flex justify-between">
+                        <p class="p-4 text-[24px]">2025</p>
+                        <img class="p-6" src="Vector.png" alt="Orange-Heart"/>
+                      </div>
+                        <h1 class="p-4 text-[24px]">Podcast App</h1>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Brief:</span> Developed a podcast application that allows users to search, subscribe, and listen to various podcasts.</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Technologies:</span> React, Tailwind, HTML, CSS.</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Responsibilities:</span> Implemented search functionality, an audio player with playback controls and integrated backend API for fetching podcast data.</p>
+                    </div>
+                    
+                    <div class="col-span-1 justify-self-center w-[240px]  rounded-[12px] bg-[#E7F0EC] text-[#000000] w-[280px] h-[581px]">
+                      <div class="flex justify-between">
+                        <p class="p-4 text-[24px]">2025</p>
+                        <img class="p-6" src="Vector.png" alt="Orange-Heart"/>
+                      </div>
+                        <h1 class="p-4 text-[24px]">Agile Board</h1>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Brief:</span> Created a task management tool for organizing and tracking tasks..</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Technologies:</span> JavaScript, HTML, CSS</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Responsibilities:</span> Developed real-time data synchronization, user interface, and user authentication. Implemented data persistence in localStorage.</p>
+                    </div>
+
+                    <div class="col-span-1 justify-self-center w-[240px]  rounded-[12px] bg-[#E7F0EC] text-[#000000] w-[280px] h-[581px]">
+                      <div class="flex justify-between">
+                        <p class="p-4 text-[24px]">2025</p>
+                        <img class="p-6" src="Vector.png" alt="Orange-Heart"/>
+                      </div>
+                        <h1 class="p-4 text-[24px]">Super Cool Project</h1>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Brief:</span> Developed a incredible application that allows users to do amazing things.</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Technologies:</span> React, Tailwind, HTML, CSS.</p>
+                        <p class="p-4 text-[19px] font-normal"><span class="font-bold">Responsibilities:</span> Implemented complex functions, a user-friendly user interface, and responsive design. Built our additional features specific to the client’s needs. </p>
+                    </div>
+                  </div>
+            </section>
+            <section id="education" class="bg-[#FFFFFF] rounded-[29px]">
 
             </section>
-            <section id="education" class="bg-[#FFFFFF] rounded-lg">
+            <section id="tools" class="bg-[#FFFFFF] rounded-[29px]">
 
             </section>
-            <section id="tools" class="bg-[#FFFFFF] rounded-lg">
+            <section id="experience" class="bg-[#FFFFFF] rounded-[29px]">
 
             </section>
-            <section id="experience" class="bg-[#FFFFFF] rounded-lg">
-
-            </section>
-            <section id="contact" class="bg-[#FFFFFF] rounded-lg">
+            <section id="contact" class="bg-[#FFFFFF] rounded-[29px]">
 
             </section>
         
