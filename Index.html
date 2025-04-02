@@ -9,10 +9,10 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     
-    <body class="bg-[url('background.png')] bg-cover bg-center h-screen w-full">
+    <body class="bg-[url('background.png')] bg-cover bg-center h-screen w-full font-poppins">
         <div class="grid grid-cols-4 gap-6 pl-6 pr-6 pt-6">
             <section id="profile-picture" class="col-span-1" >
-                <img class="rounded-[29px] " src="profile-picture.JPG" alt="profile-picture">
+                <img class="rounded-[24px] " src="profile-picture.JPG" alt="profile-picture">
             </section>
             <section id="bio" class="col-span-3 bg-[#FFFFFF] rounded-[29px] p-6">
                 <h2 class="text-xl font-bold">Name Surname</h2>
@@ -24,12 +24,13 @@
             </section>
         </div>
         <div class="grid grid-cols-2">
-            <section id="proficiency" class="bg-[#FFFFFF] rounded-[29px] m-6 ">
+            <section id="proficiency" class="bg-[#FFFFFF] rounded-[29px] m-6 p-[20px]">
                 <div class="p-4">
                     <h2 class="text-xl font-bold pb-6">Proficiency</h2>
                     <div class="flex text-sm font-medium mb-4">
                       <span>Beginner</span>
-                      <span class="pl-4">Intermediate Advance*</span>
+                      <span class="pl-[12px]">Intermediate</span>
+                      <span class="pl-[12px]">Advance*</span>
                     </div>
                     
                     <div class="grid grid-cols-4 w-full items-center">
@@ -43,41 +44,38 @@
                     
                       
                       <div class="flex flex-col col-span-3 space-y-4">
-                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
-                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
+                        <div class="h-6 bg-[#FFFFFF] rounded-[3px] relative">
+                          <div class="h-6 bg-[#4A8B70] rounded-[3px] w-[10%]"></div>
                         </div>
                     
-                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
-                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
+                        <div class="h-6 bg-[#FFFFFF] rounded-[3px] relative">
+                          <div class="h-6 bg-[#4A8B70] rounded-[3px] w-[10%]"></div>
                         </div>
                     
-                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
-                          <div class="h-5 bg-[#4A8B70] rounded-md w-[10%]"></div>
+                        <div class="h-6 bg-[#FFFFFF] rounded-[3px] relative">
+                          <div class="h-6 bg-[#4A8B70] rounded-[3px] w-[10%]"></div>
                         </div>
                     
-                        <div class="h-5 bg-[#FFFFFF] rounded-md relative">
-                          <div class="h-5 bg-[#4A8B70] rounded-md w-[100%]"></div>
+                        <div class="h-6 bg-[#FFFFFF] rounded-[3px] relative">
+                          <div class="h-6 bg-[#4A8B70] rounded-[3px] w-[100%]"></div>
                         </div>
                       </div>
                     </div>
-                    
-                      
-                    
                   </div>
             </section>
             <section id="skills" class="bg-[#FFFFFF] rounded-[29px] m-6">
                 <div class="p-4">
                     <h2 class="text-xl font-bold">Skills</h2>
                     <div class="flex flex-wrap gap-6 mt-4 pr-4 pt-4 pb-4">
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Software Development</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Agile</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">UI Design</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Problem Solving</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Git and Version Control</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Web Development</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Team Collaboration</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">Functional Programming</span>
-                      <span class="px-4 py-2 bg-[#4A8B7021] text-md rounded-full">RESTful APIs</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Software Development</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Agile</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">UI Design</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Problem Solving</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Git and Version Control</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Web Development</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Team Collaboration</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">Functional Programming</span>
+                      <span class="px-4 py-2 bg-[#ECF4F1] text-md rounded-full">RESTful APIs</span>
                     </div>
                   </div>
                 
@@ -133,12 +131,69 @@
                     </div>
                   </div>
             </section>
-            <section id="education" class="bg-[#FFFFFF] rounded-[29px]">
-
+          <div class="grid grid-cols-4">  
+            <section id="education" class="bg-[#FFFFFF] rounded-[29px] col-span-3 m-6 pt-6 pr-6 pb-6">
+              <div class="flex justify-start">
+                <h2 class="text-xl font-bold pl-[34px] pt-[29px]">Education</h2>
+              </div>
+              <div class="ml-[34px] mt-[29px] bg-[#2E6E5B] text-[#FFFFFF] rounded-[29px] mb-6">
+                <div class="grid grid-cols-3 p-4">
+                  <div class="col-span-1 flex-col pl-[21px]">
+                    <div class="font-medium text-[19px]">Jan.2023 - Dec.2024</div>
+                    <div class="font-medium text-[24px]">Hoërskool Oos-Moot</div>
+                    <div class="font-normal text-[19px]">Matric</div>
+                    <div class="font-normal text-[19px]">National Senior Certificate</div>
+                  </div>
+                  <div class="col-span-2">
+                    <ul class="list-disc">
+                      <li>Qualified for my Matric certificate and built strong concepts for different career options.</li>
+                      <li>Participated in different activities to find what interests me best for choosing a future career.</li>
+                      <li>Built strong problem solving skills and learned me how to work with different people with different personalities and interests as me.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="ml-[34px] bg-[#E7F0EC] text-[#000000] rounded-[29px] mb-6">
+                <div class="grid grid-cols-3 p-4">
+                  <div class="col-span-1 flex-col pl-[21px]">
+                    <div class="font-medium text-[19px]">Jan.2020 - Dec.2022</div>
+                    <div class="font-medium text-[24px]">HTS John Vorster</div>
+                    <div class="font-normal text-[19px]">Grades 8-10</div>
+                  </div>
+                  <div class="col-span-2">
+                    <ul class="list-disc">
+                      <li>This High Technological School learned me basic problem solving skills from a young age in the tech and industrial world.</li>
+                      <li>Chose digital electronics as a main subject wich elevated my understanding of different systems and learning how to learn different user interfaces.</li>
+                      <li>Participated in different school projects and tasks wich upgraded my knowledge in all the different technological concepts in today's era wich sparked my love for tech.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="ml-[34px]  bg-[#E7F0EC] text-[#000000] rounded-[29px] mb-6">
+                <div class="grid grid-cols-3 p-4">
+                  <div class="col-span-1 flex-col pl-[21px]">
+                    <div class="font-medium text-[19px]">Jan.2025 - ...</div>
+                    <div class="font-medium text-[24px]">CodeSpace Academy</div>
+                    <div class="font-normal text-[19px]">Software Development</div>
+                    <div class="font-normal text-[19px]">Full Time</div>
+                  </div>
+                  <div class="col-span-2">
+                    <ul class="list-disc">
+                      <li>Currently studying at CodeSpace Academy wich teaches me front and backend development using HTML CSS and JavaScript.</li>
+                      <li>I consider myself a good front-end developer using HTML and CSS as this is all I have learnt so far in CodeSpace's course.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </section>
-            <section id="tools" class="bg-[#FFFFFF] rounded-[29px]">
-
+            <section id="tools" class="bg-[#FFFFFF] rounded-[29px] col-span-1 m-6">
+              <div class="flex justify-center">
+                <h2 class="text-xl font-bold  py-[29px]">Tools</h2>
+              </div>
+              
             </section>
+          </div> 
+
             <section id="experience" class="bg-[#FFFFFF] rounded-[29px]">
 
             </section>
