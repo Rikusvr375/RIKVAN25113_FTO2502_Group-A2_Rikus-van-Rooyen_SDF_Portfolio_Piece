@@ -11,8 +11,10 @@
   - `<span>`, `<ul>`, `<p>`, `<h1-h6>`, and `<img>` for better content organization.  
 - **Tailwind CSS version 2.2.16** was used for its easy installation and straightforward styling.  
 - The website is **fully responsive**, changing layout when the screen size is reduced to **under 640px**.  
+- I used different **icons and pictures**, so I created two separate folders named **Icons** and **Images** for better organization.  
 - All the **footer links** are up-to-date and functional.  
 
 ---  
 
 Feel free to check out the project and provide feedback! 🚀
+
